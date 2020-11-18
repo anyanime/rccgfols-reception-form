@@ -13,10 +13,10 @@
     <form class="container panel" action="" method="post">
        <div class="panel-heading media ">
         <figure class="image media-left is-128x128">
-            <img class="is-rounded m-6 pb-6" src="./images/rccg-logo.png">
+            <img class="is-rounded m-2 pb-6 " src="./images/rccg-logo.png">
         </figure>
-          <div class="media-content m-3 pt-2">
-            <div class="field has-text-centered content">
+          <div class="media-content">
+            <div class="field has-text-centered has-text-link content">
                 <p>RECEPTION CARD</p>
                 <p>THE REDEEMED CHRISTIAN CHURCH OF GOD</p>
                 <p class="is-italic">THE FOUNTAIN OF LIFE SANCTUARY</p>
@@ -25,155 +25,199 @@
           </div>
        </div>
         <div class="field mx-2">
-            <label class="label pt-3">NAME: MR/MRS/CHIEF/DR/ENGR</label>
+            <label class="label pt-3 has-text-link">NAME: MR/MRS/CHIEF/DR/ENGR</label>
             <div class="control">
                 <input class="input" type="text" placeholder="Enter Your Name" required>
             </div>
         </div>
         <div class="field mx-2">
-            <label class="label">ADDRESS(HOME)</label>
+            <label class="label has-text-link">ADDRESS(HOME)</label>
             <div class="control">
                 <input class="input" type="text" placeholder="Enter Your Address" required>
             </div>
         </div>
-        <div class="field mx-2">
-            <label class="label">TELEPHONE(HOME/OFFICE)</label>
-            <div class="control">
-                <input class="input" type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter Your Number" required>
+        <div class="field is-horizontal mx-2">
+            <div class="field-label">
+                <label class="label has-text-link">EMAIL</label>
             </div>
-           <div class="field mx-2">
-            <label class="label">Email</label>
-            <div class="control">
-                <input class="input" type="email" placeholder="Enter Your Email" required>
-            </div>
-        </div>
-        </div>
-
-       <div class="field is-horizontal mx-2" >
-            <div class="field mx-2">
-                <label class="label">NEAREST BUS-STOP</label>
-                <div class="control">
-                    <input class="input" type="text" placeholder="Enter Nearest Bus-stop" required>
-                </div>
-            </div>
-            <div class="field mx-2">
-                <label class="label">PROFESSION</label>
-                <div class="control">
-                    <input class="input" type="text" placeholder="Enter Your Profession" required>
-                </div>
-            </div>
-            <div class="field mx-2">
-                <label class="label">Marital Status</label>
-                <div class="select" aria-required="true">
-                    <select>
-                        <option>Married</option>
-                        <option>Single</option>
-                    </select>
-                </div>
-            </div>
-            <div class="field mx-2">
-                <label class="label">Age</label>
-                <div class="select" aria-required="true">
-                    <select>
-                        <option>5-15</option>
-                        <option>16-20</option>
-                        <option>21-44</option>
-                        <option>45 and above</option>
-                    </select>
-                </div>
-            </div>
-            </div>
-       </div>
-        <div class="field mx-2">
-            <label class="label">Which part of the service blessed you most?</label>
-            <div class="select">
-                <select>
-                    <option>worship</option>
-                    <option>word</option>
-                    <option>prayer</option>
-                    <option>song ministration</option>
-                </select>
-            </div>
-            </div>
-            
-        </div>
-        <div class="field is-horizontal">
-            <div class="field is-horizontal mx-3">
-                <label class="label">Will you like to come again?</label>
-                <div class="select">
-                    <select>
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </div>
-                <div class="field mx-2">
-                    <label class="label">If yes, When?</label>
+            <div class="field-body">
+                <div class="field">
                     <div class="control">
-                        <input type="date" name="date" id="date">
+                        <input class="input" type="tel" name="tel" id="tel" placeholder="Enter Your Email">
+                    </div>
+                </div>
+            </div>
+            <div class="field-label mx-2">
+                <label class="label has-text-link">MOBILE</label>
+            </div>
+            <div class="field-body">
+                <div class="field">
+                    <div class="control">
+                        <input class="input" type="tel" name="tel" id="tel" placeholder="Enter Your Number">
+                    </div>
+                </div>
+            </div>
+            <div class="field-label mx-2">
+                <label class="label has-text-link">PROFESSION</label>
+            </div>
+            <div class="field-body">
+                <div class="field">
+                    <div class="control">
+                        <input class="input" type="tel" name="tel" id="tel" placeholder="Enter Your Profession">
                     </div>
                 </div>
             </div>
         </div>
         <div class="field is-horizontal mx-2">
-            <label class="label">Can we visit you?</label>
-            <div class="select">
-                <select>
-                    <option>Yes</option>
-                    <option>No</option>
+            <div class="field-label">
+                <label class="label has-text-link">NEAREST BUS-STOP</label>
+            </div>
+            <div class="field-body">
+                <div class="field">
+                    <div class="control">
+                        <input class="input" type="tel" name="tel" id="tel" placeholder="Enter Nearest Bus-stop">
+                    </div>
+                </div>
+            </div>
+            <div class="field-label mx-2">
+                <label class="label has-text-link">Age</label>
+            </div>
+            <div class="field-body">
+                <div class="field">
+                    <div class="control">
+                        <div class="select has-text-link">
+                            <select class="has-text-link">
+                                <option>5-15</option>
+                                <option>16-20</option>
+                                <option>21-44</option>
+                                <option>45 and above</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="field-label mx-2">
+                <label class="label has-text-link">Marital Status</label>
+            </div>
+            <div class="field-body">
+                <div class="field">
+                    <div class="control">
+                        <label class="radio has-text-link">
+                            <input type="radio" name="married">
+                            Married
+                        </label>
+                        <label class="radio has-text-link">
+                            <input type="radio" name="single">
+                            Single
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="field is-horizontal mx-2">
+            <div class="field">
+                <label class="label has-text-link">Which part of the service blessed you most?</label>
+            </div>
+            <!-- <div class="field-body"> -->
+                <div class="field">
+                    <div class="control">
+                        <div class="select has-text-link">
+                            <select class="has-text-link">
+                                <option>worship</option>
+                                <option>word</option>
+                                <option>prayer</option>
+                                <option>song ministration</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                    <div class="field mx-2">
+                        <label class="label has-text-link">Will you like to come again</label>
+                        </div>
+                        <div class="control has-text-link">
+                            <label class="radio">
+                                <input type="radio" name="YES">
+                                Yes
+                            </label>
+                            <label class="radio">
+                                <input type="radio" name="NO">
+                                No
+                            </label>
+                        </div>
+            <div class="field mx-2">
+                <label class="label has-text-link">If Yes, when?</label>
+            </div>
+            <div class="field">
+                <div class="control">
+                    <input class="input has-text-link" type="date" name="date" id="date">
+                </div>
+            </div>            
+        </div>
+
+        <div class="field is-horizontal">
+             <div class="field mx-2">
+            <label class="label has-text-link">Can we visit you?</label>
+        </div>
+        <div class="field">
+        <div class="control">
+            <label class="radio has-text-link">
+                <input type="radio" name="Yes2">
+                Yes
+            </label>
+            <label class="radio has-text-link">
+                <input type="radio" name="No2">
+                No
+            </label>
+        </div>  
+        </div>
+            <div class="field mx-2">
+                <label class="label has-text-link">If yes, Days available?</label>
+            </div>
+            <div class="field">
+                <div class="control">
+                    <div class="select has-text-link">
+                        <select class="has-text-link">
+                            <option>Mondays</option>
+                            <option>Tuesdays</option>
+                            <option>wednesdays</option>
+                            <option>Thursdays</option>
+                            <option>Fridays</option>
+                            <option>Saturdays</option>
+                            <option>Sundays</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="field mx-2">
+                <label class="label has-text-link">Who invited you?</label>
+            </div>
+            <div class="select has-text-link">
+                <select class="has-text-link">
+                    <option>A member</option>
+                    <option>Friend</option>
+                    <option>Others</option>
                 </select>
             </div>
-            <div class="field mx-2">
-                <label class="label">If yes, Days available?</label>
-                <div class="select">
-                   <select>
-                       <option>Mondays</option>
-                       <option>Tuesdays</option>
-                       <option>wednesdays</option>
-                       <option>Thursdays</option>
-                       <option>Fridays</option>
-                       <option>Saturdays</option>
-                       <option>Sundays</option>
-                   </select>
-                </div>
-            </div>
-            <div class="field mx-2">
-                <label class="label">Time availabele at home</label>
-                <div class="select" aria-required="true">
-                    <select>
-                        <option>Morning</option>
-                        <option>Afternoon</option>
-                        <option>Evening</option>
-                    </select>
-                </div>
-            </div>
-            <div class="field mx-2">
-                <label class="label">Who invited you?</label>
-                <div class="select" aria-required="true">
-                    <select>
-                        <option>A member</option>
-                        <option>Friend</option>
-                        <option>Others</option>
-                    </select>
-                </div>
             </div>
         </div>
+        </div>
         <div class="field mx-2">
-            <label class="label">Advice for church!</label>
+            <label class="label has-text-link">Advice for church!</label>
             <div class="control">
                 <input class="input" type="text" placeholder="What do you have to say?" required>
             </div>
         </div>
         <div class="field mx-2 pb-2">
-            <label class="label">Prayer request</label>
+            <label class="label has-text-link">Prayer request</label>
             <div class="control">
                 <input class="input" type="text" placeholder="what do you want God to do for you?" required>
             </div>
         </div>
         <div class="field pb-2 px-6">
             <div class="control">
-                <button class="button is-link is-fullwidth">Submit</button>
+                <button class="button is-link is-fullwidth has-text-link">Submit</button>
             </div>
-        </div>    
+        </div>     
        
 
     </form>
